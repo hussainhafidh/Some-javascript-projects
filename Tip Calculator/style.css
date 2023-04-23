@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+}
+.contianer{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: #025b5b;
+    height: 20%;
+    /* background-color: red; */
+}
+.box{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.calbox{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+}
+.calbox-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+.calbox-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+}
+.calbox-operation{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.selected{
+    background-color: red;
+}
+.calbox-operation>input{
+    color:  #025b5b;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color:hsl(185, 41%, 84%);
+}
+.calbox-operation>label{
+    color:#025b5b;
+    font-weight: 600;
+}
+.tip-percent{
+    /* height: 40%; */
+    justify-content: space-between;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.tip-percent>button{
+    cursor: pointer;
+    border: 0px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 50px;
+    margin-bottom:10px;
+    background-color: #025b5b;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.result{
+    width: 90%;
+    height: 90%;
+    background-color: hsl(183, 100%, 15%);
+    /* background-color: hsl(186, 14%, 43%); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tip{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    /* background-color: red; */
+}
+.tip-amount{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    /* background-color: green; */
+}
+.reset>button{
+    border-radius: 10px;
+    border: 0px;
+    background-color: hsl(184, 14%, 56%);
+    width: 90%;
+    cursor: pointer;
+}

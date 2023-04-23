@@ -1,0 +1,20 @@
+.container {
+    width: 500px;
+    background: burlywood;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+  }
+  .container > div {
+    margin: 20px auto;
+  }
+  button {
+    width: 120px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    background: cadetblue;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 30px;
+  }

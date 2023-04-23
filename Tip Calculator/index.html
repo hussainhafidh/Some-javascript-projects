@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+</head>
+  <body>
+    <div class="contianer">
+      <div class="header">
+        <h2>SPLI</h2>
+        <h2>TTER</h2>
+      </div>
+      <div class="box">
+        <div class="calbox">
+          <div class="calbox-left">
+            <div class="calbox-operation">
+              <label for="bill">Bill</label>
+              <input type="text" placeholder="0" class="bill"/>
+              <label for="percent">Select Tip %</label>
+              <div class="tip-percent">
+                <button class="btn" value=5 >5%</button>
+                <button class="btn" value=10>10%</button>
+                <button class="btn" value=15>15%</button
+                ><button class="btn" value=25>25%</button>
+                <button class="btn" value=50>50%</button>
+                <button class="btn" style="background-color: hsl(185, 41%, 84%);color: rgb(68, 68, 68);">Custom</button>
+              </div>
+              <label for="people">Number of people</label>
+              <input type="text" name="" id="people" placeholder="0">
+            </div>
+          </div>
+          <div class="calbox-right">
+            <div class="result">
+                <div class="tip">
+                    <div class="tip-amount">
+                        <h4>Tip Amount<br><span style="font-size:10px">/Per Person</span></h4>
+                        <h1 id="tipAmount">$0</h1>
+                    </div>
+                    <div class="tip-amount">
+                        <h4>Total<br><span style="font-size:10px">/Per Person</span></h4>
+                        <h1 style="margin-left: 60px;" id="total-per">$0</h1>
+                    </div>
+                </div>
+                <div class="reset">
+                    <button id="resetbtn">RESET</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

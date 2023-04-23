@@ -1,0 +1,55 @@
+body{
+    background-color: #a4c9c1;
+    text-align: center;
+}
+#main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem
+}
+#left-div{
+    background: #ffffff;
+    border: 2px solid black;
+    width: 50vw;
+}
+h3{
+    background: #000;
+    color: white;
+    padding: 0.2rem 1rem;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+#right-div{
+    background: #ffffff;
+    border: 2px solid black;
+    width: 40vw;
+    margin-left: 5vw;
+}
+.input-feild{
+    width: 30vw;
+    /* background: #c4b7b7; */
+    margin: 0.5rem auto
+}
+label{
+    margin-right: 1rem;
+}
+
+button{
+    background: #000;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+button:hover{
+    background: #363434;
+}
+.right-inner-div{
+    height: 15vh;
+}
+#alert{
+    color: red;
+    font-weight: 700;
+    font-size: larger;
+    display: none;
+}
+

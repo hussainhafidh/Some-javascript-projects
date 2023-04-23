@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color:darkblue;
+}
+h1{
+    color:ghostwhite;
+text-align: center;
+}
+.wrapper{
+    background-color: darkcyan;
+    border: 1px solid gray;
+    width: 35vw;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.display-box{
+    width: 25vw;
+    font-size: 20px;
+    color: black;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: ghostwhite;
+}
+input[type="text"]{
+    padding-left: 10px;
+}
+input[type="button"]{
+    width: 8vw;
+    height: 5.2vh;
+    font-size: 20px;
+    border-color: darkcyan;
+    border-radius:10px;
+}
+input:hover{
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: darkblue;
+    color: ghostwhite;
+}
+
+#equal:hover{
+    background-color:green;
+    color:ghostwhite;
+}
+
+#btn:hover{
+    background-color: red;
+    color: ghostwhite;
+}
